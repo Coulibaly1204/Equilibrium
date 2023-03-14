@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    
+
+    
+
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.container{
+    border: 2px solid hsl(216deg 49.77% 10.51% / 82%);
+    width: 24%;
+    height: 80vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 16px 16px hsl(216deg 50.37% 9.95% / 75%);
+    background-color: hsl(216, 50%, 16%);
+}
+
+
+.image-container{
+    width: 80%;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+
+
+.image-container img{
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 14px 0px black;
+    border: 1px solid hsl(216, 50%, 16%);
+}
+
+
+.title-container{
+    margin-top: 0.6rem;
+    padding-left: 2rem;
+    color: white;
+
+}
+
+.title-container h2{
+    font-size: medium;
+    font-weight: 700;
+
+}
+
+.paragraph-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+
+.paragraph-container p{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+
+
+.container-bottom{
+    display: flex;
+    padding-top: 1rem;
+    margin-top: 1rem;
+
+}
+
+.container-bottom-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    padding-left: 1.8rem;
+}
+
+.logo-eth{
+    display: flex;
+}
+
+.logo-eth img{
+    display: flex;
+    padding-bottom: 0.5rem;
+}
+
+
+.icon-eth-container{
+    padding-top: 0.6rem;
+}
+
+
+.logo-eth p{  
+    color:  hsl(178, 100%, 50%) ;
+    margin-left: 0.2rem;
+    padding-top: 0.6rem;
+    font-size: smaller;
+}
+
+
+
+.container-bottom-left{
+    width: 40%;
+    display: flex;
+}
+
+
+
+.icon-clock-container{
+    width: 20%;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+.text-bottom-left{
+    width: 80%;
+    color: white;
+    padding-top: 0.4rem;
+    padding-left: 0.3rem;
+}
+
+
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.navbar-bottom{
+    border-top: 2px solid rgba(255, 255, 255, 0.178);
+    width: 85%;
+    height: 5rem;
+    display: flex;
+    margin-top: 2rem;
+}
+
+
+.icon-profil{
+    width: 10%;
+    height: 25px;
+    margin-top: 1rem;
+
+}
+
+
+.icon-profil img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(images/image-avatar.png);
+    border: 1px solid wheat;
+    border-radius: 1rem;
+    
+
+    
+}
+
+
+.Name-of-creator{
+    width: 90%;
+    color: white;
+    font-size: small;
+    padding-top: 1.3rem;
+    padding-left: 0.9rem;
+}
+
+
+
+
+
